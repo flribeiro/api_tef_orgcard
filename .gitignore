@@ -2,3 +2,5 @@
 /Scripts
 pip-selfcheck.json
 pyvenv.cfg
+API/__pycache__/api_tef_oc.cpython-36.pyc
+API/__pycache__/mail.cpython-36.pyc
