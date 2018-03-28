@@ -8,9 +8,10 @@ dados = {
     'familia': ['Pâmela','Alice'],
 }
 
-url = 'http://127.0.0.1:5000/testjson'
+url = 'http://127.0.0.1:5000/'
 headers = {'Content-Type': 'application/json'}
 
-response = requests.post(url, data=json.dumps(dados), headers=headers)
+with open('request_tef.json', 'r') as fj:
+    response = requests.post(url, data=fj.read(), headers=headers)
 
-print(response.content)
+print(response.text)

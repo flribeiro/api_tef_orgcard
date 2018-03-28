@@ -1,0 +1,21 @@
+{
+    "token": "asdfGZXCVb@!",
+    "nome_cliente": "Casa de Carnes Boi Nos Ares",
+    "lojas": [
+            {
+                "cnpj": "00.000.000/0000-00",
+                "neu": "00000"
+            },
+            {
+                "cnpj": "11.111.111/1111-11",
+                "neu": "00001"
+            },
+            {
+                "cnpj": "22.222.222/2222-22",
+                "neu": "00002"
+            }
+    ],
+    "destinatarios": [
+        "rafael@orgsystem.com.br", "paulo@orgsystem.com.br"
+    ]
+}
